@@ -1,0 +1,151 @@
+html {
+  height: 750px;
+}
+
+div {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-size: 3em;
+}
+
+#sketchpad {
+  border-radius: 5px;
+  padding: 0;
+  width: 600px;
+  height: 600px;
+  font-size: 0;
+  margin: auto;
+}
+
+.sketchpad-pixel {
+  background-color: #e6e6e6;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  float: right;
+}
+
+#container {
+  border-radius: 25px;
+  width: 850px;
+  height: auto;
+  margin: auto;
+  background-color: #d0d0d0;
+  margin-top: 20px;
+}
+
+#color-container {
+  float:right;
+  position: relative;
+  top: -482px;
+  width: 125px;
+}
+
+#color-container > button {
+  display: block;
+  margin: auto;
+  width: 80px;
+  margin-bottom: 24px;
+  height: 50px;
+}
+
+#canvas-button-container {
+  float: left;
+  position: relative;
+  top: -482px;
+  width: 125px;
+}
+
+#canvas-button-container > button {
+  display: block;
+  margin: auto;
+  width: 80px;
+  margin-bottom: 35px;
+  height: 100px;
+}
+
+#title {
+  margin: auto;
+  display: block;
+  width: 576px;
+  height: 80px;
+}
+
+#title-container {
+  width: 850px;
+  margin: auto;
+  margin-top:20px;
+}
+
+.title-pixel {
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  float: left;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+#title-button {
+  float: right;
+  margin-right: 24px;
+  height: 73px;
+  margin-top: -73px;
+}
+
+#title-button > button {
+    margin-top: 52px;
+    width: 80px;
+}
+
+button {
+  background-color: #b3b3b3;
+  outline: none;
+  border: none;
+  padding: 5px;
+}
+
+button:hover {
+  background-color: #a2a2a2;
+  font-weight: bold;
+}
+
+#red-pixel:hover {
+  background-color: rgb(255,0,0);
+  font-weight: bold;
+  color: rgb(50,0,0);
+}
+
+#black-pixel:hover {
+  color: white;
+  background-color: rgb(50,50,50);
+  font-weight: bold;
+}
+
+#blue-pixel:hover {
+  background-color: rgb(40,40,255);
+  font-weight: bold;
+  color: rgb(0,0,50);
+}
+
+#green-pixel:hover {
+  background-color: rgb(0,225,0);
+  font-weight: bold;
+  color: rgb(0,50,0);
+}
+
+#rainbow:hover {
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  font-weight: bold;
+  background: red;
+  background: -webkit-linear-gradient(right, #FF3333, #FFFF33, #33FF33, #33FFFF, #3333FF, #FF33FF);
+  background: -o-linear-gradient(right, #FF3333, #FFFF33, #33FF33, #33FFFF, #3333FF, #FF33FF);
+  background: -moz-linear-gradient(right, #FF3333, #FFFF33, #33FF33, #33FFFF, #3333FF, #FF33FF);
+  background: linear-gradient(to right, #FF3333, #FFFF33, #33FF33, #33FFFF, #3333FF, #FF33FF);
+}
